@@ -1,0 +1,61 @@
+body {
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-image: url(../img/fondo.jpg);
+	padding: 0;
+}
+/*clase universal para boxsizing*/
+*{
+	 -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+
+header {
+	text-align: center;
+	background-color: #64CDF6;
+}
+
+main{
+	padding-top: 2em;
+	padding-left: 6em;
+	padding-right: 6em;
+}
+h1 {
+	margin: 0%;
+	height: 60px;
+	padding-top: 15px;
+	font-family: Roboto;
+	font-size: 36px;
+	color: #fff;
+}
+.principal {
+
+	display: inline-block;
+}
+.presentation {
+	width: 35%;
+	height: 250px;
+	background-color: #fff;
+	box-sizing: border-box;
+	
+	display: inline-block;
+}
+
+
+h2 {
+	margin: 0;
+}
+
+.tweet{
+	width: 35%;
+	height: 250px;
+	background-color: #fff;
+	box-sizing: border-box;
+
+	display: inline-block;
+	float: right;
+
+}
+
