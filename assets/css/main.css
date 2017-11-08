@@ -2,6 +2,7 @@ body {
 	margin: 0 auto;
 	box-sizing: border-box;
 	background-image: url(../img/fondo.jpg);
+	background-size: 100%;
 	padding: 0;
 }
 /*clase universal para boxsizing*/
@@ -53,9 +54,16 @@ h2 {
 	height: 250px;
 	background-color: #fff;
 	box-sizing: border-box;
-
 	display: inline-block;
 	float: right;
-
 }
 
+textarea{
+	border: none;
+	border-bottom: 1px solid gray; 
+}
+/*
+textarea:focus{
+	border-bottom: 1px solid blue;
+}
+*/ 
