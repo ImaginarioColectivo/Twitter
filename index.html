@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Twitter</title>
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Space+Mono" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -18,9 +19,10 @@
 			</div>
 		<!-- Sección formulario-->
 			<div class="tweet">
-				<textarea id="textarea" id="comment" placeholder="¿Qué estás pensando?..."></textarea>
+				<textarea name = "mesage" id="comment" cols = "30" rows = "8" placeholder="¿Qué estás pensando?..."></textarea>
 				<div class="button-tweet">
-				<button type="button" id="btn" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i> TWEET</button>
+				<button type="button" id="btn" onclick='add()'><i class="fa fa-plus" aria-hidden="true"></i> TWEET</button>
+					<p id="caracter"><span>140</span></p>
 				</div>
 			</div>		
 		<div id="contenedor">

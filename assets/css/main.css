@@ -16,15 +16,24 @@ body {
 header {
 	text-align: center;
 	background-color: #64CDF6;
+
+}
+.blue{
+	color: #64CDF6;
+}
+
+.violet{
+	color: violet;
 }
 
 h1 {
 	margin: 0%;
 	height: 60px;
 	padding-top: 15px;
-	font-family: Roboto;
-	font-size: 36px;
+	font-size: 40px;
 	color: #fff;
+	font-family: 'Cutive Mono', monospace;
+	font-size:2.7em;
 }
 
 .presentation {
@@ -32,13 +41,17 @@ h1 {
 	height: 250px;
 	background-color: #fff;
 	box-sizing: border-box;
-	
 	display: inline-block;
+	margin-left: 5em;
 }
 
 
 h2 {
 	margin: 0;
+}
+
+h4{
+	color: #1DA1F2;
 }
 
 .tweet{
@@ -48,6 +61,16 @@ h2 {
 	box-sizing: border-box;
 	display: inline-block;
 	float: right;
+	margin-right: 5em;
+
+}
+
+#btn{
+	background-color : #1DA1F2;
+	color: #fff;
+	height: 3em;
+	width: 13em;
+	border-radius: 6px;
 }
 
 textarea{
@@ -57,7 +80,7 @@ textarea{
 }
 
 #contenedor{
-	width: 70%;
+	width: 88%;
 	margin: 0 auto;
 	text-align: left;
 	margin-bottom: 6em;
